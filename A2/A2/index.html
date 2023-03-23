@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Layout example</title>
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Climate+Crisis&display=swap" rel="stylesheet">
+
+  <style>
+      body{margin:100px; background-color:#335583;font-family:'Arial', 'Helvetica', 'Roboto', sans-serif;}
+      p{line-height:2;}
+      div.sectiona{padding:40px; max-width:800px; margin:0 auto;}
+      div.sectiona p{color:#ffffff; max-width:50ch;}
+      div.sectiona h1{font-family:Climate Crisis; font-size:5vw; font-weight:25px;  margin-bottom:.2em;color:#ffffff}
+      div.sectiona h2{font-family:helvetica; font-size:1.5vw; font-weight:lighter; margin-bottom:5em;  margin-left:23em; color:#ffffff}
+      div.sectiona p.first{ margin-bottom:5em;}
+      div.sectiona img.deepspace{width:100vh; height: 35vw; object-fit: contain; object-position:left; display:grid;}
+      div.sectiona video.vid{width:100vh; height: 35vw; object-position:left;}
+        !{vh is percentage of height of window, vw is width, vm is max;}
+
+      div.frame{max-width:600px;}
+
+
+    </style>
+  </head>
+  <body>
+    <div class="sectiona">
+      <h1>PORTFOLIO</h1>
+      <h2>paris wilken</h2>
+      <p class="first">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam auctor posuere rhoncus.
+        Morbi rutrum, urna at faucibus convallis, magna nibh accumsan mauris, eget tincidunt
+        ex velit maximus purus. Phasellus ac consequat neque. Vestibulum sodales orci eget magna porttitor,
+        ut rutrum nisl tempus. Mauris fermentum turpis non nibh lacinia rutrum. Praesent interdum arcu neque,
+        vitae facilisis massa hendrerit ornare. In lobortis urna sit amet odio porttitor porta.</p>
+
+      <p class="next">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam auctor posuere rhoncus.
+        Morbi rutrum, urna at faucibus convallis, magna nibh accumsan mauris, eget tincidunt
+        ex velit maximus purus. Phasellus ac consequat neque. Vestibulum sodales orci eget magna porttitor,
+        ut rutrum nisl tempus. Mauris fermentum turpis non nibh lacinia rutrum. Praesent interdum arcu neque,
+        vitae facilisis massa hendrerit ornare. In lobortis urna sit amet odio porttitor porta.</p>
+      <img src="Pleiades_large.jpeg" alt="Pleiades" class="deepspace">
+      <img src="Rotating_earth_animated_transparent.gif" alt="SPIN!!" class="deepspace">
+      <video src="Planet Earth Revolving.mp4" alt="spin2" autoplay='true' muted='true' loop='true' controls='false' class="vid">
+    </div>
+  </body>
+</html>
