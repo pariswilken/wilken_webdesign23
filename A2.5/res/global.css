@@ -1,0 +1,66 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*end of CSS reset*/
+
+/*Global Styles Begin*/
+body{background-color:#09000A; color:#333; font-family:'Roboto Slab', 'Arial', 'Helvetica', sans-serif;}
+div{box-sizing:border-box;} /*or content-box, padding will then go outside box*/
+
+/*Global Styles End*/
+/*Typography Style Begins*/
+div.hero p {font-size:1em;    line-height:1.6em; margin-bottom:0.6em; text-align:center;}
+div.hero h1{font-size:3em;   line-height:1.6em; margin-bottom:0.6em; margin-top:0.8em; font-weight:600;}
+div.hero h2{font-size:2.4em; line-height:1.6em; margin-bottom:0.6em; margin-top:0.8em;}
+div.hero h3{font-size:1.8em; line-height:1.6em; margin-bottom:0.6em; margin-top:0.8em;}
+
+/*Typography Style Ends*/
+/*Imaging Style Begins*/
+div.hero{min-height:100vh; position:relative;}
+img.space-img{width:100%; height:100vh; object-fit:contain;}
+div.hero div.spacetext{position:absolute; top:50%; left:50%; background-color:rgba(255,255,255,0.6);
+                       padding:4em; transform:translate(-50%,-50%);
+                      }
+div.hero div.spacetext h1{font-size:4em; margin-top:-20px; margin-bottom:-10px; text-align:center;}
+
+/*Imaging Style Ends*/
